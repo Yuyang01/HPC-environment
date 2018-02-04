@@ -1,0 +1,3 @@
+/home/parallels/HPC-environment/mpi_cpp_examples/build/CMakeFiles/edit_cache.dir
+/home/parallels/HPC-environment/mpi_cpp_examples/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/HPC-environment/mpi_cpp_examples/build/CMakeFiles/hello.dir

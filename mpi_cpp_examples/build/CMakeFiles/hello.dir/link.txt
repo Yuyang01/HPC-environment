@@ -1,0 +1,1 @@
+/usr/bin/g++   -O3 -DNDEBUG   CMakeFiles/hello.dir/hello.cpp.o  -o ../bin/hello -rdynamic /usr/lib/openmpi/lib/libmpi_cxx.so /usr/lib/openmpi/lib/libmpi.so -Wl,-rpath,/usr/lib/openmpi/lib 
