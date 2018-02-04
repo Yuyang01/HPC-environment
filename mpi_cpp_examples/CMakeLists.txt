@@ -10,8 +10,9 @@ set(CMAKE_BUILD_TYPE Release)
 
 
 #### MPI
+include(FindMPI)
 
-find_package(MPI REQUIRED)
+#find_package(MPI REQUIRED)
 if (MPI_FOUND)
     include_directories(SYSTEM ${MPI_INCLUDE_PATH})
 else (MPI_FOUND)
