@@ -1,0 +1,3 @@
+/home/parallels/HPC-environment/openmp_cpp_examples/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/HPC-environment/openmp_cpp_examples/build/CMakeFiles/edit_cache.dir
+/home/parallels/HPC-environment/openmp_cpp_examples/build/CMakeFiles/main.dir
