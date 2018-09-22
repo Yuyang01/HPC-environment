@@ -1,0 +1,3 @@
+/Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/CMakeFiles/hello.dir
+/Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/CMakeFiles/ALL_BUILD.dir
+/Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/CMakeFiles/ZERO_CHECK.dir

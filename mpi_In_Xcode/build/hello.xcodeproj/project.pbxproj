@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04100AD1F8044092B6437535 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4EF19A36C71F444AB52D6898 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7A1839A3F9E24703888F8142 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9920688098D942AEA78FEE72 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4AF1E22953E4895A12FA7BA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1E45BB82327F4C089357ACA3 /* CMake Rules */,
+			);
+			dependencies = (
+				350C76809F3A48A885460950 /* PBXTargetDependency */,
+				4CA2DFC387974CE5B8D9C565 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		584E26DF29DA4FCF9B42ED21 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/hello.cpp */ = {isa = PBXBuildFile; fileRef = DA7E106E09B949B4B522ED57 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/hello.cpp */; };
+		CA013EEB26F84A3694EDE205 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ED7D510B5DCA4D7E9A684CDC /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4BFBCE0212FF455195F29725 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		59465AA6091441D082CA9263 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8C1B583E44C54077814B70D2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F0CB12EC39D04B67A3E4C691 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		207CAE941F61469F829D654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECF2D9350FD4C96A91BC1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04100AD1F8044092B6437535;
+			remoteInfo = ZERO_CHECK;
+		};
+		54AC1523F44A49748BA94A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECF2D9350FD4C96A91BC1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9B3DFD3D104175A0E35628;
+			remoteInfo = hello;
+		};
+		840D034D16154745A1FF8800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECF2D9350FD4C96A91BC1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04100AD1F8044092B6437535;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6526709D6F4C73AA6473C6 /* hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hello; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9637FE6E2FE4D56BEE91298 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DA7E106E09B949B4B522ED57 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/hello.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello.cpp; path = hello.cpp; sourceTree = SOURCE_ROOT; };
+		ED7D510B5DCA4D7E9A684CDC /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B7D95940F2B426DB4ECB698 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		10816CFADB054A85A6E87490 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7E106E09B949B4B522ED57 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/hello.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6C05E91B345F4528BAFF9730 /* hello */ = {
+			isa = PBXGroup;
+			children = (
+				10816CFADB054A85A6E87490 /* Source Files */,
+				ED7D510B5DCA4D7E9A684CDC /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */,
+			);
+			name = hello;
+			sourceTree = "<group>";
+		};
+		9D6466D30443420883F243A6 = {
+			isa = PBXGroup;
+			children = (
+				6C05E91B345F4528BAFF9730 /* hello */,
+				F8B016579C444321848545B9 /* ALL_BUILD */,
+				F66AD2B19FC2447C948DDB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F66AD2B19FC2447C948DDB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6526709D6F4C73AA6473C6 /* hello */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B016579C444321848545B9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0B7D95940F2B426DB4ECB698 /* CMake Rules */,
+				D9637FE6E2FE4D56BEE91298 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9B3DFD3D104175A0E35628 /* hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF690356FED14090AEE06301 /* Build configuration list for PBXNativeTarget "hello" */;
+			buildPhases = (
+				74C96A8D34284F8A99C47134 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53264E9B43D747759A4E492E /* PBXTargetDependency */,
+			);
+			name = hello;
+			productName = hello;
+			productReference = AB6526709D6F4C73AA6473C6 /* hello */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECF2D9350FD4C96A91BC1CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 27B9B7A53042478E81817645 /* Build configuration list for PBXProject "hello" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				59465AA6091441D082CA9263 /* Debug */,
+				F0CB12EC39D04B67A3E4C691 /* Release */,
+				8C1B583E44C54077814B70D2 /* MinSizeRel */,
+				4BFBCE0212FF455195F29725 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9D6466D30443420883F243A6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				9920688098D942AEA78FEE72 /* ALL_BUILD */,
+				04100AD1F8044092B6437535 /* ZERO_CHECK */,
+				AC9B3DFD3D104175A0E35628 /* hello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147CCE0B2AB34F8FA4F5D926 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1E45BB82327F4C089357ACA3 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build -f /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		424D97226C6A457BAC1A942A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7A1839A3F9E24703888F8142 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build -f /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C96A8D34284F8A99C47134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E26DF29DA4FCF9B42ED21 /* /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/hello.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350C76809F3A48A885460950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04100AD1F8044092B6437535 /* ZERO_CHECK */;
+			targetProxy = 207CAE941F61469F829D654A /* PBXContainerItemProxy */;
+		};
+		4CA2DFC387974CE5B8D9C565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9B3DFD3D104175A0E35628 /* hello */;
+			targetProxy = 54AC1523F44A49748BA94A0F /* PBXContainerItemProxy */;
+		};
+		53264E9B43D747759A4E492E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04100AD1F8044092B6437535 /* ZERO_CHECK */;
+			targetProxy = 840D034D16154745A1FF8800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EAC83196AD4B61A85E810E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		109FB472DAAE4AC789C2B8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/build;
+			};
+			name = Release;
+		};
+		13C8081FBE57447D9908AD0D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/open-mpi/3.1.1/lib/libmpi.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/Cellar/open-mpi/3.1.1/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2401523A175C44F89FD00816 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2B37B8E876F943D681742443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/build;
+			};
+			name = Debug;
+		};
+		32647B931F6643A1BA75CC32 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/build;
+			};
+			name = MinSizeRel;
+		};
+		3DF3267C7AB245648F37C974 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		421941A884C946F2B5F86A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/open-mpi/3.1.1/lib/libmpi.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/Cellar/open-mpi/3.1.1/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5C14C461F050470EA6DD0649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6954D3A576134D00A0346C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/open-mpi/3.1.1/lib/libmpi.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/Cellar/open-mpi/3.1.1/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		70D7531619A74FAE859A1905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8AF54AE0741E4E8BA3C40D16 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A6AC4D0780574C099DC8753A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BFCFF58E17A946AEAC521656 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CA0EFE501570424B9D34C767 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/Cellar/open-mpi/3.1.1/lib/libmpi.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				SYSTEM_HEADER_SEARCH_PATHS = ("/usr/local/Cellar/open-mpi/3.1.1/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7970F2F43F44D04B34ADDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Yuyang/Documents/programing/hpcEnv/mpi_cpp_examples/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B9B7A53042478E81817645 /* Build configuration list for PBXProject "hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B37B8E876F943D681742443 /* Debug */,
+				109FB472DAAE4AC789C2B8D4 /* Release */,
+				32647B931F6643A1BA75CC32 /* MinSizeRel */,
+				BFCFF58E17A946AEAC521656 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4EF19A36C71F444AB52D6898 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7970F2F43F44D04B34ADDCF /* Debug */,
+				5C14C461F050470EA6DD0649 /* Release */,
+				3DF3267C7AB245648F37C974 /* MinSizeRel */,
+				09EAC83196AD4B61A85E810E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4AF1E22953E4895A12FA7BA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AC4D0780574C099DC8753A /* Debug */,
+				70D7531619A74FAE859A1905 /* Release */,
+				2401523A175C44F89FD00816 /* MinSizeRel */,
+				8AF54AE0741E4E8BA3C40D16 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF690356FED14090AEE06301 /* Build configuration list for PBXNativeTarget "hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421941A884C946F2B5F86A8C /* Debug */,
+				6954D3A576134D00A0346C7E /* Release */,
+				CA0EFE501570424B9D34C767 /* MinSizeRel */,
+				13C8081FBE57447D9908AD0D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECF2D9350FD4C96A91BC1CF /* Project object */;
+}
